@@ -1,6 +1,6 @@
 let vid;
-let nativeWidth = 1080;
-let nativeHeight = 1920;
+let nativeWidth = 720;
+let nativeHeight = 1280;
 let nativeNum = 5;
 let nativeSlicewidth = nativeWidth / nativeNum;
 
@@ -101,7 +101,7 @@ function calculateCanvassize() {
 function loadVideo() {
   for (i = 0; i < num; i++) {
     let vid = createVideo(
-      "https://player.vimeo.com/progressive_redirect/playback/701775492/rendition/1080p?loc=external&signature=533479a52d8b89851b1918e9f433404928db75dbecdb22b1ad6d086823a33a4e"
+      "https://player.vimeo.com/progressive_redirect/playback/701775492/rendition/720p?loc=external&signature=2af44bfeeb7854b0241646cbd590564bcdd97d53fb0591f8eb87829bf9518b72"
     );
 
     vid.loop();
